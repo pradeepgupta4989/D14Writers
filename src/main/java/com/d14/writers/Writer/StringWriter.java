@@ -11,7 +11,7 @@ public class StringWriter implements IWriter {
     protected String name = "string_writer";
     static boolean closed =false;
 
-    private static final StringBuilder content = new StringBuilder();
+    private final StringBuilder content = new StringBuilder();
 
     public void write(String text){
         if (!closed){

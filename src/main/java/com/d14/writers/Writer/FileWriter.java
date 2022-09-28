@@ -17,7 +17,7 @@ public class FileWriter implements IWriter {
     static boolean closed =false;
     public static java.io.FileWriter fileWriter;
 
-    FileWriter() throws IOException {
+    public FileWriter() throws IOException {
         fileWriter = new java.io.FileWriter(FILE_NAME);
     }
 
