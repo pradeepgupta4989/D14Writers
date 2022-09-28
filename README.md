@@ -1,4 +1,4 @@
-# D14Writers
+# Digital 14 Writers
  
 Please read the below given problem statement and design a working solution for it. Please make sure to take care of below pointers while designing and coding your solution:
 •	Provide a working solution.
